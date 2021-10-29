@@ -27,9 +27,9 @@ a.redlink:hover {
   font-size:350%;
 }
 
-ul.redl {
-   width: 5px;
-}
+.redl {
+  padding-left: 20px;
+} 
 
 ul.navbar {
   list-style-type: none;

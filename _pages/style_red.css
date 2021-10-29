@@ -1,0 +1,54 @@
+.main {
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: rgb(255, 87, 87);
+}
+
+body {
+  margin: 0;
+}
+
+a.redlink {
+  font-family: "Comic Sans MS", "Comic Sans", "sans-serif", "serif";
+}
+
+a.redlink:link {
+  color: #ff0000;
+  font-size:150%;
+}
+
+a.redlink:visited {
+  color: #8b1c1c;
+  font-size:150%;
+}
+
+a.redlink:hover {
+  color: #ff00009a;
+  font-size:350%;
+}
+
+ul.redl {
+   width: 5px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  background-color: rgb(184, 11, 11);
+}
+
+ul.navbar li {float: left;}
+
+ul.navbar li a {
+  display: block;
+  color: rgb(255, 184, 184);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active) {background-color: rgb(184, 11, 11);}
+
+ul.navbar li a.active {background-color: #660d0d;}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <link rel="stylesheet" href="style_red.css">
+    <!-- Head section of website-->
+    <title>red</title>
+</head>
+ 
+<body>
+    <!-- Navbar Start -->
+    <ul class="navbar">
+        <li><a class="home" href="home.html">Home</a></li>
+        <li><a href="red.html">Red.</a></li>
+        <li><a href="wav.html">wav</a></li>
+        <li><a href="duck.html">duck</a></li>
+    </ul>
+    <!-- Navbar End -->
+    <div class="main">
+    <!-- Body section of website -->
+    <ul id="redl"><a class="redlink" href="https://en.wikipedia.org/wiki/Red">red</a></ul>
+    <script>
+        for (let i = 0; i < 200; i++) {
+            for (let i = 0; i < 35; i++) {
+            var itm = document.getElementById("redl").firstChild;
+            var cln = itm.cloneNode(true);
+            document.getElementById("redl").appendChild(cln);
+            }
+            lb = document.createElement("br");
+            document.getElementById("redl").appendChild(lb);
+        }
+    </script>
+    
+    </div>
+</body>
+ 
+</html>

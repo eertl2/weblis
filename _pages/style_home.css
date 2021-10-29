@@ -1,0 +1,37 @@
+.main {
+  padding-left: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, p, ul, li {
+  font-family: "Comic Sans MS", "Comic Sans", "sans-serif", "serif";
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  background-color: rgb(19, 25, 83);
+}
+
+ul.navbar li {float: left;}
+
+ul.navbar li a {
+  display: block;
+  color: rgb(228, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active) {background-color: rgb(19, 25, 83);}
+
+ul.navbar li a.active {background-color: #0facb8;}
+
+.footer {
+  color: rgb(17, 98, 219);
+}

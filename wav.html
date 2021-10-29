@@ -4,13 +4,13 @@
 <head>
     <link rel="stylesheet" href="style_home.css">
     <!-- Head section of website-->
-    <title>duck</title>
+    <title>home</title>
 </head>
  
 <body>
     <!-- Navbar Start -->
     <ul class="navbar">
-        <li><a class="home" href="home.html">Home</a></li>
+        <li><a class="home" href="index.html">Home</a></li>
         <li><a href="red.html">Red.</a></li>
         <li><a href="wav.html">wav</a></li>
         <li><a href="duck.html">duck</a></li>
@@ -18,8 +18,16 @@
     <!-- Navbar End -->
     <div class="main">
     <!-- Body section of website -->
-    <h1>quack</h1> 
-    <img src="subaru_duck.gif" width="1200" height="500" alt="cant see duck :("/> 
+    <h1>~~~~~~~~~~~~wav~~~~~~~~~~~~</h1>
+    <a onclick="play();">
+        <img src="click.png">
+    </a>
+    <script>
+        var wav = new Audio('wav.wav');
+        function play() {
+            wav.play();
+        }
+    </script>
      <!-- Footer Start -->
      <div class="footer">
        
